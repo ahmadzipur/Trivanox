@@ -3,6 +3,8 @@ Dashboard Web : https://github.com/ahmadzipur/Trivanox-HR-Admin.git
 
 Link Dashboard : https://ryzola.com/trivanox/
 
+File APK : https://github.com/ahmadzipur/Trivanox/tree/main/build/app/outputs/flutter-apk
+
 TRIVANOX – Online Attendance 📱
 
 TRIVANOX adalah aplikasi absensi online berbasis mobile yang dikembangkan menggunakan Flutter untuk mendukung pencatatan kehadiran karyawan secara digital, real-time, akurat, dan terintegrasi dengan backend.
