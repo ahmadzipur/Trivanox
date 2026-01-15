@@ -5,25 +5,27 @@ Link Dashboard : https://ryzola.com/trivanox/
 
 File APK : https://github.com/ahmadzipur/Trivanox/tree/main/build/app/outputs/flutter-apk
 
-TRIVANOX – Online Attendance 📱
+TRIVANOX – Online Attendance
 
 TRIVANOX adalah aplikasi absensi online berbasis mobile yang dikembangkan menggunakan Flutter untuk mendukung pencatatan kehadiran karyawan secara digital, real-time, akurat, dan terintegrasi dengan backend.
 
 Aplikasi ini dikembangkan sebagai bagian dari Tugas Mata Kuliah Pemrograman Mobile 2
 Program Studi Teknik Informatika – Universitas Teknologi Bandung (2025).
 
-👤 Informasi Pengembang
+Informasi Pengembang
 - Nama: Ahmad Zaelani
 - NIM: 23552011179
 - Program Studi: Teknik Informatika
 - Universitas: Universitas Teknologi Bandung
 - Dosen Pengampu: Andri Nugraha Ramdhon, S.Kom., M.Kom.
 
-📌 Latar Belakang
+Latar Belakang
+
 Proses absensi manual memiliki berbagai keterbatasan seperti rawan kesalahan pencatatan, keterlambatan rekap data, dan kurangnya transparansi.
 TRIVANOX hadir sebagai solusi absensi digital berbasis mobile yang memungkinkan pencatatan kehadiran karyawan secara otomatis dan real-time melalui aplikasi Flutter yang terintegrasi dengan backend API dan database.
 
-🎯 Tujuan Pengembangan
+Tujuan Pengembangan
+
 Aplikasi TRIVANOX bertujuan untuk:
 - Menyediakan fitur absensi real-time (clock-in, break, clock-out)
 - Menyimpan data absensi ke database terpusat
@@ -31,25 +33,27 @@ Aplikasi TRIVANOX bertujuan untuk:
 - Menyertakan bukti foto dan lokasi GPS
 - Memudahkan monitoring dan validasi kehadiran karyawan
 
-🏗️ Arsitektur Sistem
+Arsitektur Sistem
+
 Aplikasi menggunakan arsitektur Client–Server:
 - Client: Aplikasi Mobile (Flutter)
 - Server: REST API (PHP)
 - Database: MySQL
 - Data absensi dikirim dari aplikasi ke server melalui API dan disimpan dalam database, kemudian ditampilkan kembali ke aplikasi secara real-time.
 
-🧩 Fitur Utama
-🔐 Autentikasi
+Fitur Utama
+
+1. Autentikasi
 - Login menggunakan email dan password
 - Manajemen sesi pengguna
 
-🕒 Absensi Harian
+2. Absensi Harian
 - Clock In (Absen Masuk) – dengan foto & lokasi GPS
 - Break Out (Mulai Istirahat)
 - Break In (Selesai Istirahat)
 - Clock Out (Absen Pulang) – dengan foto & lokasi GPS
 
-📊 Riwayat & Detail Absensi
+3. Riwayat & Detail Absensi
 - Daftar riwayat absensi
 - Detail absensi per tanggal:
 - Jam masuk
@@ -58,18 +62,19 @@ Aplikasi menggunakan arsitektur Client–Server:
 - Foto masuk & pulang
 - Lokasi GPS (terintegrasi Google Maps)
 
-🔔 Notifikasi
+4. Notifikasi
 - Notifikasi berhasil absen
 - Validasi status absensi
 
-🧱 Metode Pengelolaan Data (CRU)
+Metode Pengelolaan Data (CRU)
+
 Aplikasi menerapkan metode CRU (Create, Read, Update):
 - Create: Clock-in (1x per hari, tervalidasi)
 - Read: Riwayat & detail absensi
 - Update: Break-out, break-in, dan clock-out
 - Metode Delete belum diterapkan untuk menjaga integritas data absensi.
 
-⚙️ Teknologi yang Digunakan
+Teknologi yang Digunakan
 - Flutter – Cross-platform mobile framework
 - GetX – State management, navigasi, dependency injection
 - REST API – Backend komunikasi data
@@ -77,13 +82,15 @@ Aplikasi menerapkan metode CRU (Create, Read, Update):
 - Google Maps – Visualisasi lokasi GPS
 - Camera & Image Picker – Bukti foto absensi
 
-🔁 Manajemen State & Navigasi
+Manajemen State & Navigasi
+
 Aplikasi menggunakan GetX untuk:
 - State management reaktif (RxBool, RxList)
 - Navigasi tanpa BuildContext
 - Dependency injection yang ringan dan efisien
 
-🖥️ Antarmuka (UI)
+Antarmuka (UI)
+
 Halaman utama aplikasi:
 - Login
 - Home (status absensi & tombol aksi)
@@ -94,26 +101,29 @@ Halaman utama aplikasi:
 - Detail Absensi
 - UI dirancang responsif dan menyesuaikan status absensi pengguna.
 
-🧪 Pengujian
+Pengujian
+
 Pengujian dilakukan dengan:
 - Debug log (debugPrint)
 - Validasi data null (foto & lokasi)
 - Uji tampilan pada berbagai ukuran layar
 - Hasil pengujian menunjukkan aplikasi berjalan stabil dan data absensi tampil dengan baik.
 
-🚧 Status Pengembangan
-🔄 Dalam tahap pengembangan (Progress)
+Status Pengembangan
+
+Dalam tahap pengembangan (Progress)
+
 Fitur yang telah diimplementasikan:
 - CRU Database
 - Integrasi API
 - Riwayat absensi
 - Detail absensi
 
-🔮 Rencana Pengembangan Selanjutnya
-- 📄 Pengajuan izin & cuti
-- 👤 Halaman profil pengguna
-- 🔐 Ganti password & logout
-- 📈 Optimalisasi performa & UX
+Rencana Pengembangan Selanjutnya
+- Pengajuan izin & cuti
+- Halaman profil pengguna
+- Ganti password & logout
+- Optimalisasi performa & UX
 
 📹 Demo Video
 - ▶️ https://youtube.com/shorts/4T3t-pYrVe0
