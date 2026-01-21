@@ -126,7 +126,7 @@ Rencana Pengembangan Selanjutnya
 - Optimalisasi performa & UX
 
 📹 Demo Video
-- ▶️ https://youtube.com/shorts/4T3t-pYrVe0
+- ▶️ https://youtu.be/kTR1zLzLHhU?si=YMeo7qbLwOrYmHcP
 
 📦 Repository
 - 🔗 https://github.com/ahmadzipur/Trivanox.git
