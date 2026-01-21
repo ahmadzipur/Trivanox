@@ -10,7 +10,7 @@ TRIVANOX – Online Attendance
 TRIVANOX adalah aplikasi absensi online berbasis mobile yang dikembangkan menggunakan Flutter untuk mendukung pencatatan kehadiran karyawan secara digital, real-time, akurat, dan terintegrasi dengan backend.
 
 Aplikasi ini dikembangkan sebagai bagian dari Tugas Ujian Akhir Semester Mata Kuliah Pemrograman Mobile 2
-Program Studi Teknik Informatika – Universitas Teknologi Bandung (2025).
+Program Studi Teknik Informatika – Universitas Teknologi Bandung (2026).
 
 Informasi Pengembang
 - Nama: Ahmad Zaelani
