@@ -9,7 +9,7 @@ TRIVANOX – Online Attendance
 
 TRIVANOX adalah aplikasi absensi online berbasis mobile yang dikembangkan menggunakan Flutter untuk mendukung pencatatan kehadiran karyawan secara digital, real-time, akurat, dan terintegrasi dengan backend.
 
-Aplikasi ini dikembangkan sebagai bagian dari Tugas Mata Kuliah Pemrograman Mobile 2
+Aplikasi ini dikembangkan sebagai bagian dari Tugas Ujian Akhir Semester Mata Kuliah Pemrograman Mobile 2
 Program Studi Teknik Informatika – Universitas Teknologi Bandung (2025).
 
 Informasi Pengembang
@@ -32,6 +32,12 @@ Aplikasi TRIVANOX bertujuan untuk:
 - Menampilkan riwayat absensi secara terstruktur
 - Menyertakan bukti foto dan lokasi GPS
 - Memudahkan monitoring dan validasi kehadiran karyawan
+- Menambahkan halaman riwayat absensi dengan animasi agar tampilan lebih interaktif.
+- Mengimplementasikan fitur pengajuan izin dan cuti secara digital.
+- Menyediakan halaman detail izin dan cuti untuk menampilkan informasi pengajuan secara lengkap.
+- Mengembangkan halaman profil pengguna yang dapat diedit.
+- Menerapkan sistem dropdown beruntun untuk data wilayah (Provinsi → Kabupaten/Kota → Kecamatan → Desa).
+
 
 Arsitektur Sistem
 
@@ -65,6 +71,15 @@ Fitur Utama
 4. Notifikasi
 - Notifikasi berhasil absen
 - Validasi status absensi
+
+5. Pengajuan Izin, Cuti dan Sakit
+- Tambah pengajuan
+- Lampirkan File Pendukung
+- Status pengajuan
+
+6. Profil pengguna
+- Data Profil pengguna
+- Edit Data Profil Pengguna
 
 Metode Pengelolaan Data (CRU)
 
@@ -107,23 +122,20 @@ Pengujian dilakukan dengan:
 - Debug log (debugPrint)
 - Validasi data null (foto & lokasi)
 - Uji tampilan pada berbagai ukuran layar
+- Navigasi antar halaman berjalan dengan baik
+- Data riwayat dan detail absensi ditampilkan dengan benar
+- Pengajuan izin dan cuti dapat dilakukan tanpa error
+- Dropdown wilayah dan pengajuan berfungsi sesuai alur
+- Aplikasi berjalan stabil dan responsif 
+- Animasi berjalan dengan baik
 - Hasil pengujian menunjukkan aplikasi berjalan stabil dan data absensi tampil dengan baik.
 
-Status Pengembangan
-
-Dalam tahap pengembangan (Progress)
-
-Fitur yang telah diimplementasikan:
-- CRU Database
-- Integrasi API
-- Riwayat absensi
-- Detail absensi
-
 Rencana Pengembangan Selanjutnya
-- Pengajuan izin & cuti
-- Halaman profil pengguna
-- Ganti password & logout
-- Optimalisasi performa & UX
+- Sistem persetujuan izin dan cuti oleh admin
+- Notifikasi real-time untuk status absensi dan izin
+- Keamanan data yang lebih kuat
+- Optimalisasi performa dan tampilan UI
+
 
 📹 Demo Video
 - ▶️ https://youtu.be/kTR1zLzLHhU?si=YMeo7qbLwOrYmHcP
