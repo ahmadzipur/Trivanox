@@ -114,6 +114,9 @@ Halaman utama aplikasi:
 - Break In
 - Clock Out
 - Detail Absensi
+- Riwayat absensi
+- Pengajuan Izin, Cuti, dan Sakit
+- Profil Pengguna
 - UI dirancang responsif dan menyesuaikan status absensi pengguna.
 
 Pengujian
